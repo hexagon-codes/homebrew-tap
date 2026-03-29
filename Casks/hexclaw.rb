@@ -1,9 +1,9 @@
 cask "hexclaw" do
-  version "0.2.2"
+  version "0.2.4"
 
   on_arm do
     url "https://github.com/hexagon-codes/hexclaw-desktop/releases/download/v#{version}/HexClaw_#{version}_aarch64.dmg"
-    sha256 "03d91010f9962fece4f3df1c436a956369250ae9a9ece1c36db41ed92299fa20"
+    sha256 "b60d9d755404d7babe3ab752a7f1c22cbdfd9b515e9bd5057e6867543727974d"
   end
 
   on_intel do
