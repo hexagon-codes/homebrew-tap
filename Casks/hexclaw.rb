@@ -8,7 +8,7 @@ cask "hexclaw" do
 
   on_intel do
     url "https://github.com/hexagon-codes/hexclaw-desktop/releases/download/v#{version}/HexClaw_#{version}_x64.dmg"
-    sha256 :no_check
+    sha256 "086f8580bf93c18698834d6ba3786eb74bb6153f5d54ea64764439dd21e87f3a"
   end
 
   name "HexClaw"
