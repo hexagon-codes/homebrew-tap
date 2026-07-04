@@ -1,14 +1,14 @@
 cask "hexclaw" do
-  version "0.4.8"
+  version "0.4.9"
 
   on_arm do
     url "https://github.com/hexagon-codes/hexclaw-desktop/releases/download/v#{version}/HexClaw_#{version}_aarch64.dmg"
-    sha256 "a37d86ed285345c3bc58b0d99062002e97b353b3e29d9adfe3c23343dd93058b"
+    sha256 "a09e902cdae2f6bb5fbc36235ecbafe336faaf07f1c7df3ca6a311a9056e50b1"
   end
 
   on_intel do
     url "https://github.com/hexagon-codes/hexclaw-desktop/releases/download/v#{version}/HexClaw_#{version}_x64.dmg"
-    sha256 "d5475f0ce21c8fcdc9ccf79a5229958b004ae8ecc4a126e6e85029c7848860c3"
+    sha256 "35c3a28da0076586fe1ccc8a2ec60664e27f5757dc622897fae0e2d1d37b2f54"
   end
 
   name "HexClaw"
